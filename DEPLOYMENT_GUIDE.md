@@ -1,4 +1,4 @@
-# TravelMemory AWS Deployment Guide
+# TravelMemory AWS Deployment Guide 
 
 This document explains how I deployed the TravelMemory MERN application on AWS using EC2, Nginx, PM2, Application Load Balancer, MongoDB Atlas, and CloudFront.
 
