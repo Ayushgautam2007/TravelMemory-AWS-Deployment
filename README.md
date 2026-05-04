@@ -49,13 +49,14 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 📂 Project Structure
+## 📌 Tech Stack
 
-TravelMemory/
-│── frontend/
-│── backend/
-│── nginx/
-│── README.md
+- Frontend: React
+- Backend: Node.js, Express
+- Web Server: Nginx
+- Process Manager: PM2
+- Cloud: AWS (EC2, ALB, CloudFront)
+- Database: MongoDB Atlas
 
 
 ---
