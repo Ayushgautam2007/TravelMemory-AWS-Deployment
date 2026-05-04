@@ -347,10 +347,13 @@ https://github.com/UnpredictablePrashant/TravelMemory
 This deployment helped me understand how a full-stack MERN application can be deployed on AWS using a scalable architecture. I also handled real deployment issues like CORS, mixed content, Nginx static file problems, build mismatch, and CloudFront caching.
 
 ```
+
 ## 🧠 Key Takeaways
+```text
 - Learned real-world production deployment
 - Understood load balancing and scaling
 - Fixed CORS, HTTPS, and caching issues
 - Worked with CloudFront + ALB integration
+```
 
 ```
