@@ -10,12 +10,14 @@ https://d6bisv02umd0e.cloudfront.net/
 
 User → CloudFront → Application Load Balancer → EC2 Instances → MongoDB Atlas
 
-Frontend: React application served via Nginx (2 EC2 instances)
-Backend: Node.js API managed with PM2 (2 EC2 instances)
+''
+ Frontend: React application served via Nginx (2 EC2 instances)
+ Backend: Node.js API managed with PM2 (2 EC2 instances)
 Database: MongoDB Atlas (cloud-hosted)
 Load Balancing: AWS Application Load Balancer (ALB)
 Content Delivery & HTTPS: AWS CloudFront
-
+''
+''
 🚀 Key Implementations
 Deployed a complete MERN stack application on AWS EC2 instances
 Configured Nginx as a reverse proxy and static file server
@@ -24,7 +26,8 @@ Implemented horizontal scaling with multiple frontend and backend instances
 Set up Application Load Balancer with appropriate routing rules
 Integrated MongoDB Atlas for a managed database solution
 Enabled HTTPS and global content delivery using CloudFront
-
+''
+''
 ⚠️ Challenges Encountered
 Mixed content issues due to HTTP/HTTPS mismatch
 CORS configuration errors between frontend and backend
