@@ -45,6 +45,3 @@ https://d6bisv02umd0e.cloudfront.net/
 - Tuned CloudFront caching behavior and invalidations
 
 ---
-
-## 🎯 Objective
-The primary goal of this project was to gain hands-on experience with deploying and managing a real-world full-stack application in a distributed AWS environment, including load balancing, scalability, and production best practices.
