@@ -1,6 +1,6 @@
 # TravelMemory AWS Deployment Guide 
 
-This document explains how I deployed the TravelMemory MERN application on AWS using EC2, Nginx, PM2, Application Load Balancer, MongoDB Atlas, and CloudFront.
+This document provides a complete step-by-step guide to deploying the TravelMemory MERN application on AWS using EC2, Nginx, PM2, Application Load Balancer, MongoDB Atlas, and CloudFront.
 
 ## Architecture
 
@@ -347,4 +347,10 @@ https://github.com/UnpredictablePrashant/TravelMemory
 This deployment helped me understand how a full-stack MERN application can be deployed on AWS using a scalable architecture. I also handled real deployment issues like CORS, mixed content, Nginx static file problems, build mismatch, and CloudFront caching.
 
 ```
+## 🧠 Key Takeaways
+- Learned real-world production deployment
+- Understood load balancing and scaling
+- Fixed CORS, HTTPS, and caching issues
+- Worked with CloudFront + ALB integration
+
 ```
