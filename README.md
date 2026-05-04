@@ -9,7 +9,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 **User → CloudFront → Application Load Balancer → EC2 Instances → MongoDB Atlas**
 
 ### Components
@@ -21,12 +21,12 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 🖼️ Architecture Diagram
+##  Architecture Diagram
 <img width="940" height="644" alt="image" src="https://github.com/user-attachments/assets/74013530-89c1-4041-90fe-e83a4e9141c1" />
 
 ---
 
-## 🚀 Key Implementations
+##  Key Implementations
 - Deployed a complete MERN stack application on AWS EC2 instances
 - Configured Nginx as a reverse proxy and static file server
 - Used PM2 for process management and ensuring backend availability
@@ -37,7 +37,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## ⚙️ Deployment Steps
+##  Deployment Steps
 1. Launched EC2 instances for frontend and backend  
 2. Installed Node.js, Nginx, and PM2  
 3. Deployed backend and started using PM2  
@@ -49,7 +49,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 📌 Tech Stack
+##  Tech Stack
 
 - Frontend: React
 - Backend: Node.js, Express
@@ -61,7 +61,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## ⚠️ Challenges Encountered
+##  Challenges Encountered
 - Mixed content issues due to HTTP/HTTPS mismatch  
 - CORS configuration errors between frontend and backend  
 - Blank screen issues caused by incorrect frontend build deployment  
@@ -69,7 +69,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 🛠️ Resolutions
+##  Resolutions
 - Replaced hardcoded backend URLs with relative `/api` endpoints  
 - Rebuilt and redeployed the frontend correctly across all instances  
 - Corrected Nginx configuration for static content and routing  
@@ -77,13 +77,13 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 🧪 Health Checks
+##  Health Checks
 - ALB health checks configured for backend APIs  
 - Verified application availability across multiple instances  
 
 ---
 
-## 🛡️ Security Considerations
+##  Security Considerations
 - Secured APIs behind Application Load Balancer  
 - Enabled HTTPS via CloudFront  
 - Used environment variables for sensitive data  
@@ -91,7 +91,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 - Implement Auto Scaling Groups for EC2  
 - Add CI/CD pipeline (GitHub Actions / Jenkins)  
 - Containerize application using Docker  
@@ -100,7 +100,7 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 - Real-world deployment challenges in distributed systems  
 - Handling CORS and HTTPS issues in production  
 - Load balancing and multi-instance architecture  
@@ -108,5 +108,5 @@ https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
-## 🎯 Objective
+##  Objective
 The primary goal of this project was to gain hands-on experience with deploying and managing a real-world full-stack
