@@ -257,7 +257,7 @@ After changing CloudFront settings, I created invalidation:
 Final HTTPS URL:
 
 ```text
-https://d20ahthcxav8kv.cloudfront.net
+https://d6bisv02umd0e.cloudfront.net/
 ```
 
 ## Issues Faced and Fixes
@@ -333,7 +333,7 @@ The application was successfully deployed with:
 ## Live URL
 
 ```text
-https://d20ahthcxav8kv.cloudfront.net
+https://d6bisv02umd0e.cloudfront.net/
 ```
 
 ## Original Project Repository
