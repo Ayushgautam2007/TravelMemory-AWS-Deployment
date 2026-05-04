@@ -1,54 +1,41 @@
-# TravelMemory – AWS Deployment
+# TravelMemory MERN Stack Deployment on AWS
 
-This is my deployment of the TravelMemory MERN stack project on AWS.
+This project demonstrates the end-to-end deployment of a full-stack MERN (MongoDB, Express, React, Node.js) application on AWS, with a focus on scalability, load balancing, and production-level architecture.
 
-I have deployed the frontend and backend on EC2 instances and configured Nginx, PM2, and Application Load Balancer to handle traffic. The application is also accessible over HTTPS using CloudFront.
-
-The main goal was to understand how a full-stack app works in a real deployment setup with multiple instances and load balancing.
-
----
-
-## Live Application
+🔗 Live Application
 
 https://d6bisv02umd0e.cloudfront.net/
 
----
+🏗️ Architecture Overview
 
-## Architecture
+User → CloudFront → Application Load Balancer → EC2 Instances → MongoDB Atlas
 
-User → CloudFront → ALB → EC2 instances → MongoDB Atlas
+Frontend: React application served via Nginx (2 EC2 instances)
+Backend: Node.js API managed with PM2 (2 EC2 instances)
+Database: MongoDB Atlas (cloud-hosted)
+Load Balancing: AWS Application Load Balancer (ALB)
+Content Delivery & HTTPS: AWS CloudFront
 
-- Frontend: React app served using Nginx (2 instances)
-- Backend: Node.js API running with PM2 (2 instances)
-- Database: MongoDB Atlas
-- Load balancing: AWS ALB
-- HTTPS: CloudFront
+🚀 Key Implementations
+Deployed a complete MERN stack application on AWS EC2 instances
+Configured Nginx as a reverse proxy and static file server
+Used PM2 for process management and ensuring backend availability
+Implemented horizontal scaling with multiple frontend and backend instances
+Set up Application Load Balancer with appropriate routing rules
+Integrated MongoDB Atlas for a managed database solution
+Enabled HTTPS and global content delivery using CloudFront
 
----
+⚠️ Challenges Encountered
+Mixed content issues due to HTTP/HTTPS mismatch
+CORS configuration errors between frontend and backend
+Blank screen issues caused by incorrect frontend build deployment
+CloudFront caching inconsistencies
 
-## What I implemented
+🛠️ Resolutions
+Replaced hardcoded backend URLs with relative /api endpoints
+Rebuilt and redeployed the frontend correctly across all instances
+Corrected Nginx configuration for static content and routing
+Tuned CloudFront caching behavior and invalidations
 
-- Deployed full MERN stack on AWS EC2
-- Configured Nginx for both frontend and backend
-- Used PM2 to keep backend running
-- Created multiple frontend and backend instances
-- Set up Application Load Balancer with routing rules
-- Integrated MongoDB Atlas database
-- Enabled HTTPS using CloudFront
-
----
-
-## Issues I faced
-
-- Mixed content error (HTTP vs HTTPS)
-- CORS issue between frontend and backend
-- Blank screen due to wrong frontend build on multiple servers
-- CloudFront caching problems
-
-Fixed them by:
-- using `/api` instead of full backend URL
-- rebuilding frontend properly on both instances
-- fixing nginx static config
-- adjusting CloudFront settings
-
----
+🎯 Objective
+The primary goal of this project was to gain hands-on experience with deploying and managing a real-world full-stack application in a distributed AWS environment, including load balancing, scalability, and production best practices.
