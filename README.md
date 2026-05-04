@@ -22,7 +22,7 @@ https://d6bisv02umd0e.cloudfront.net/
 ---
 
 ## 🖼️ Architecture Diagram
-![Architecture](./architecture.png)
+<img width="940" height="644" alt="image" src="https://github.com/user-attachments/assets/74013530-89c1-4041-90fe-e83a4e9141c1" />
 
 ---
 
