@@ -349,11 +349,9 @@ This deployment helped me understand how a full-stack MERN application can be de
 ```
 
 ## 🧠 Key Takeaways
-```text
 - Learned real-world production deployment
 - Understood load balancing and scaling
 - Fixed CORS, HTTPS, and caching issues
 - Worked with CloudFront + ALB integration
-```
 
 ```
