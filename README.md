@@ -10,7 +10,7 @@ The main goal was to understand how a full-stack app works in a real deployment 
 
 ## Live Application
 
-https://d20ahthcxav8kv.cloudfront.net
+https://d6bisv02umd0e.cloudfront.net/
 
 ---
 
